@@ -14,6 +14,9 @@ export default function AboutPage() {
       <p className={styles.description}>
         このページは、会社やサービスの紹介をするためのページです。
       </p>
+       <p className={styles.description}>
+        この文章は自動デプロイテスト用です。
+      </p>
     </main>
   );
 }
