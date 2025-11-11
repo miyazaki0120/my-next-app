@@ -68,7 +68,7 @@ export default function Home() {
               </span>
             </h2>
             <p className="m-0 max-w-[30ch] text-sm opacity-50">
-              静的ルートの例：Aboutページに移動します。
+              静的ルートの例：Aboutページに移動します。デプロイテスト用の文章もあります。
             </p>
           </Link>
           <Link
