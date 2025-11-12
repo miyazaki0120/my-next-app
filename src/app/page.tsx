@@ -49,7 +49,7 @@ export default function Home() {
 
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-1">
         <div className="text-center mb-10">
-          <h2 className="text-3xl font-bold mb-4">ルーティングの例 課題4.4.確認用</h2>
+          <h2 className="text-3xl font-bold mb-4">ルーティングの例</h2>
           <p className="text-gray-600 dark:text-gray-400">
             各ページのリンクです。
           </p>
