@@ -7,6 +7,8 @@ import Link from "next/link";//Linkコンポーネントをインポート
 
 export default function Home() {
   const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+
+  console.log("✅ NEXT_PUBLIC_API_URL:", apiUrl);
   
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
