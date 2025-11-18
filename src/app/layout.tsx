@@ -3,7 +3,8 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import { Analytics } from '@vercel/analytics/react'; // ← 追加！
+import { Analytics } from '@vercel/analytics/react'; 
+import { SpeedInsights } from '@vercel/speed-insights/next'; // ← 追加！
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -23,7 +24,8 @@ export default function RootLayout({
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />
-        <Analytics /> {/* ← 追加！ */}
+        <Analytics /> {/* 既存 */}
+        <SpeedInsights /> {/* ← 追加 */}
       </body>
     </html>
   );
